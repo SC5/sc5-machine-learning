@@ -41,4 +41,4 @@ Another tip is to keep a personal glossary. Machine learning as a field is full 
 <br />
 <br />
 <p align="center"><em>This tutorial was brought to you, with love, by</em></p>
-<p align="center"><a href="https://sc5.io"><img src="https://github.com/SC5/sc5-machine-learning/blob/master/images/sc5logo-small.png" /></a></p>
+<p align="center"><a href="https://sc5.io"><img src="https://github.com/SC5/sc5-machine-learning/blob/master/images/icon-robot.svg" /></a></p>
