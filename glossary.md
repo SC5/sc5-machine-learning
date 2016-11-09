@@ -26,7 +26,7 @@ A concept where probabilities are assigned to hypotheses/beliefs; this is contra
 A from of statistical inference where the probability of a hypothesis (or hypotheses) holding is adjusted as new evidence becomes available.
 
 #### Bucketisation
-For a continuous valued variable, the bucketisation is the process of dividing the entire range of values into a set of consecutive buckets.
+For a continuous valued variable, the bucketisation is the process of dividing the entire range of values into a set of consecutive _buckets_, each containing a subset of possible values.
 
 #### Classification problems
 Problems in which the end goal is to predict which class a data point belongs to. In other words, the output variable follows a discrete distribution (e.g. "small", "medium", "large") as opposed to a continuous distribution (e.g. the set of real numbers `R`).
@@ -77,7 +77,7 @@ A measure of the "tailedness" of a probability distribution. Positive kurtosis -
 An approach for modelling the relationship between a dependent variable `y` and `n` independent variables.
 
 #### Logistic regression
-A type of regression model where the dependent variable is categorical (e.g. man/woman, malignent/not malignent). Though it's called regression, logistic regression is in fact a classification algorithm.
+A type of regression model where the dependent variable is categorical (e.g. man/woman, malignent/not malignent). Though it's called regression, logistic regression is, in fact, a classification algorithm.
 
 #### Markov chain
 A state machine where a transition from A to B happens based on a probability. Typically, Markov chains are memoryless (the probability distribution of possible next states are based solely on the current state). Markov chains where state transitions are based on m past states are called m-order Markov chains (or Markov chains with memory `m`).
@@ -149,10 +149,10 @@ A field of machine learning wherein algorithms rely on labelled training sets of
 A classifier for classification problems that gives a decision boundary with a "large" margin between classes. Also known as a large margin classifier.
 
 #### Tractable problems
-A problem is tractable is iff can be solved in terms of a a closed-form expression (see closed form expression).
+A problem is tractable if, and only if, it can be solved as a closed-form expression (see closed form expression).
 
 #### Unsupervised machine learning
-A field of machine learning wherein the training sets are unlabelled and the main objective of learning algorithms is to find structure in the data.
+A field of machine learning wherein the training sets are unlabelled and the main objective of learning algorithms is to find structure in the data. A typical example of unsupervised learning is _clustering_.
 
 #### Vectorisation
 (In programming) using matrix operations instead of applying operations to individual elements in for/while loops, thereby making computation more efficient.
