@@ -125,7 +125,7 @@ The percentage of true positives returned by a query divided by the total number
 Problems in which the end goal is to predict a continuous valued output for a data point X. This is in contrast to classification problems, where the output can only take on a fixed set of (discrete) values.
 
 #### Regularisation
-The process of adding a regularisation term in order to reduce the parameter values theta, thereby helping to prevent overfitting models to data. Used in linear regression, logistic regression, and many other machine learning algorithms.
+The process of adding a regularisation term in order to help prevent overfitting models to training data. Used in linear regression, logistic regression, and many other machine learning algorithms.
 
 #### Response variable
 See dependent variable.
@@ -146,7 +146,7 @@ Deducing properties of a population or underlying distribution by analysing data
 A field of machine learning wherein algorithms rely on labelled training sets of "correct" examples in order to learn.
 
 #### Support Vector Machine (SVM)
-A classifier for classification problems that gives a decision boundary with a "large" margin between classes. Also known as a large margin classifier.
+A classifier for classification problems that gives a decision boundary with a "large" margin between classes. Also known as a large margin classifier. SVMs are capable of fitting complex, non-linear hypotheses using the so-called _kernel trick_.
 
 #### Tractable problems
 A problem is tractable if, and only if, it can be solved as a closed-form expression (see closed form expression).
