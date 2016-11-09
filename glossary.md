@@ -107,7 +107,7 @@ A vector in which all entries are zero except for one with the value 1. Useful f
 See one-hot vector.
 
 #### Perceptron
-A feed-forward neural network consisting of two layers (input & output), with only one neuron in the output layer. Thus, perceptrons are binary classifiers.
+A feed-forward neural network consisting of two layers (input & output), with only one neuron in the output layer (thus making it a binary classifier). A very simple type of neural network, and one of the first neural networks ever devised.
 
 #### Precision
 The amount of true positives returned by a query divided by the amount of examples predicted to be positive.
