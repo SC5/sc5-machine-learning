@@ -1,5 +1,5 @@
 # SC5 Library of Machine Learning
-This is a collection of demos, tutorials, and other resources (and pointers to such) curated by ML team at [SC5](https://sc5.io/).
+This is a collection of demos, tutorials, and other resources (and pointers to such) curated by the ML team at [SC5](https://sc5.io/).
 
 ## Table of Contents
 
