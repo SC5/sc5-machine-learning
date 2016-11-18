@@ -25,6 +25,15 @@ A concept where probabilities are assigned to hypotheses/beliefs; this is contra
 #### Bayesian inference
 A from of statistical inference where the probability of a hypothesis (or hypotheses) holding is adjusted as new evidence becomes available.
 
+#### Bagging
+See _bootstrap aggregation_.
+
+#### Bootstrap aggregation
+An ensemble method to help combat overfitting. First, bootstrapping (see _bootstrap sampling_) is used to make multiple new training sets. Then, multiple models are training using these data sets. The predictions of each model form the final prediction: for classification, predictions from each model count as "votes", and the majority vote wins; for regression, the predictions from each model are averaged to get the final prediction.
+
+#### Bootstrap sampling
+For a a single training set `N`, make `M` new training sets by sampling from the original one. Sampling is done with _replacement_, i.e. once a value is sampled from `N`, it isn't _removed_ from `N`. Thus, the `M` new training sets might (and usually do) share some of the same values.
+
 #### Bucketisation
 For a continuous valued variable, the bucketisation is the process of dividing the entire range of values into a set of consecutive _buckets_, each containing a subset of possible values.
 
@@ -105,6 +114,9 @@ A vector in which all entries are zero except for one with the value 1. Useful f
 
 #### One-of-K encoding
 See one-hot vector.
+
+#### Overfitting
+When a learning example has trained itself "too well" on the training data, making it bad at generalising to new examples (predictions).
 
 #### Perceptron
 A feed-forward neural network consisting of two layers (input & output), with only one neuron in the output layer (thus making it a binary classifier). A very simple type of neural network, and one of the first neural networks ever devised.
