@@ -6,6 +6,7 @@ This is a collection of demos, tutorials, and other resources (and pointers to s
 * [Machine Learning Glossary](https://github.com/SC5/sc5-machine-learning/blob/master/glossary.md)
 * Tutorials
   * [Machine Learning for Beginners](https://github.com/SC5/sc5-machine-learning/blob/master/tutorials/beginners-guide.md)
+* [Machine Learning Links](https://github.com/SC5/sc5-machine-learning/blob/master/links.md)
 
 ## Contributing
 Pull requests are welcome.
