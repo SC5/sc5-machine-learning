@@ -10,7 +10,6 @@ A link list of machine learning resources, curated by the ML team at SC5.
 ### Opinion pieces
 
 * [What Artificial Intelligence Can and Can’t Do Right Now](https://hbr.org/2016/11/what-artificial-intelligence-can-and-cant-do-right-now) - A down-to-earth explanation of what's currently possible (and not possible). Focuses mostly on supervised learning.
-
 * [Ten Myths About Machine Learning](https://medium.com/@pedromdd/ten-myths-about-machine-learning-d888b48334a3#.udop91xpg) - _Everyone_ should read this before blinding trusting everything reported by the media. By Pedro Domingos.
 
 ### Deep Learning
