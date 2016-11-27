@@ -58,6 +58,9 @@ A function that quantifies the amount by which predictions deviate from observed
 #### Cross-entropy
 A loss function typically used in (multinomial) logistic regression / softmax.
 
+#### Deep learning
+Using deep neural networks (networks with more than one hidden layer) in order to model higher-level abstractions. A typical example of this is image classification: if we wanted to classify images into pictures of dogs and pictures of cats, a shallow neural network with one hidden layer might detect very primitive shapes and pixel intensity values in order to solve the task. A deep neural network will detect increasingly complex things from one layer to the next, thereby being able to solve more complex problems.
+
 #### Dependent variable
 Dependent variables represent the outputs or outcomes under study. Also known as response variables.
 
