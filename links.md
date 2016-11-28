@@ -18,7 +18,7 @@ A link list of machine learning resources, curated by the ML team at SC5.
 * [Deep Learning](http://www.deeplearningbook.org) - _The_ book on deep neural networks. Covers all of the maths, intuition and lots of different architectures. If you aren't comfortable with matrices and linear algebra, it'd be a good idea to read up on those first before picking this up.
 * [Deep Learning Simplified](https://www.youtube.com/watch?v=b99UVkWzYTQ&list=PLjJh1vlSEYgvGod9wWiydumYl8hOXixNu) - A video series that gives a non-technical explanation of deep learning. Highly recommended for beginners.
 * [A Tutorial on Deep Learning (PDF)](https://cs.stanford.edu/~quocle/tutorial1.pdf) - A great 2-part series by Quoc V Le on Deep Learning. Covers the basics and some more advanced algorithms such as convolutional neural networks, autoencoders and recurrent neural networks. Part 2 can be found [here](https://cs.stanford.edu/~quocle/tutorial2.pdf).
-* [Nuts and Bolts of Apllying Deep Learning](https://www.youtube.com/watch?v=F1ka6a13S9I) - A one-hour workshop video in which the legendary Andrew Ng explains the practical issues surrounding Deep Learning, along with tips on how to solve them.
+* [Nuts and Bolts of Applying Deep Learning](https://www.youtube.com/watch?v=F1ka6a13S9I) - A one-hour workshop video in which the legendary Andrew Ng explains the practical issues surrounding Deep Learning, along with tips on how to solve them.
 
 
 ### Reinforcement learning
