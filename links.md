@@ -32,6 +32,9 @@ A link list of machine learning resources, curated by the ML team at SC5.
 
 * [Embed, encode, attend, predict: The new deep learning formula for state-of-the-art NLP models](https://explosion.ai/blog/deep-learning-formula-nlp) - Does what it says on the tin. Rather complex, but a good read if you have intermediate knowledge of neural networks and NLP concepts.
 
+### Optimisation algorithms
+
+* [An Interactive Tutorial on Numerical Optimization](http://www.benfrederickson.com/numerical-optimization/) - A great interactive visualisation of different types of numerical optimisation algorithms, including Gradient Descent. Helps you get a feel for how an optimisation algorithm actually behaves in motion.
 
 ### Neural networks
 
