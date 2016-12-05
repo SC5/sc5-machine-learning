@@ -145,6 +145,9 @@ The process of adding a regularisation term in order to help prevent overfitting
 #### Response variable
 See dependent variable.
 
+#### Restriction bias
+The set of hypotheses we are restricting ourselves to when solving a machine learning problem using a particular algorithm. For example, if we are using decision trees, we restrict ourselves to only entertaining the set of all possible decision trees, nothing more.
+
 #### Skewness
 A measure of the asymmetry of a given probability distribution.
 
