@@ -29,7 +29,7 @@ A from of statistical inference where the probability of a hypothesis (or hypoth
 See _bootstrap aggregation_.
 
 #### Bootstrap aggregation
-An ensemble method to help combat overfitting. First, bootstrapping (see _bootstrap sampling_) is used to make multiple new training sets. Then, multiple models are training using these data sets. The predictions of each model form the final prediction: for classification, predictions from each model count as "votes", and the majority vote wins; for regression, the predictions from each model are averaged to get the final prediction.
+An ensemble method to help combat overfitting. First, bootstrapping (see _bootstrap sampling_) is used to make multiple new training sets. Then, multiple models are trained using these data sets. The predictions of each model form the final prediction: for classification, predictions from each model count as "votes", and the majority vote wins; for regression, the predictions from each model are averaged to get the final prediction.
 
 #### Bootstrap sampling
 For a a single training set `N`, make `M` new training sets by sampling from the original one. Sampling is done with _replacement_, i.e. once a value is sampled from `N`, it isn't _removed_ from `N`. Thus, the `M` new training sets might (and usually do) share some of the same values.
