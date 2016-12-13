@@ -27,6 +27,9 @@ A link list of machine learning resources, curated by the ML team at SC5.
 * [Demystifying Deep Reinforcement Learning](http://neuro.cs.ut.ee/demystifying-deep-reinforcement-learning/) - A good tutorial that focuses on Q-learning using deep neural networks.
 * [Reinforcement Learning: An Introduction](https://webdocs.cs.ualberta.ca/~sutton/book/the-book-2nd.html) - A comprehensive book detailing lots of different reinforcement learning algorithms and techniques.
 
+### Model interpretation
+
+* [How to measure importance of inputs?](ftp://ftp.sas.com/pub/neural/importance.html#linmod_comp_wgt) - What _not_ to do when interpreting how different inputs affect the output of a machine learning model.
 
 ### Natural language processing
 
