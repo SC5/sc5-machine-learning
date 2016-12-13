@@ -142,6 +142,9 @@ Problems in which the end goal is to predict a continuous valued output for a da
 #### Regularisation
 The process of adding a regularisation term in order to help prevent overfitting models to training data. Used in linear regression, logistic regression, and many other machine learning algorithms.
 
+#### Residual(s)
+(in linear regression) the distances between real data points (ones in the training set) and the fitted line.
+
 #### Response variable
 See dependent variable.
 
