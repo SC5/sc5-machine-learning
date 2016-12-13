@@ -29,7 +29,7 @@ A link list of machine learning resources, curated by the ML team at SC5.
 
 ### Model interpretation
 
-* [How to measure importance of inputs?](ftp://ftp.sas.com/pub/neural/importance.html#linmod_comp_wgt) - What _not_ to do when interpreting how different inputs affect the output of a machine learning model.
+* [How to measure importance of inputs?](http://webcache.googleusercontent.com/search?q=cache:yhYe72_20OoJ:ftp://ftp.sas.com/pub/neural/importance.html) - What _not_ to do when interpreting how different inputs affect the output of a machine learning model.
 
 ### Natural language processing
 
