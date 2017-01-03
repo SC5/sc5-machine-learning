@@ -26,6 +26,7 @@ A link list of machine learning resources, curated by the ML team at SC5.
 * [Reinforcement Learning by David Silver from DeepMind](https://www.youtube.com/playlist?list=PLwQyV9I_3POuVsyB3hCyl3Iieb1oWVfPP) - A great series of videos (15 hours) on reinforcement learning by David Silver. Technical, but very much worth it. A great place to start if you're a beginner. Requires some math knowledge, but don't let that deter you. The slides for the lectures can be found [here](http://www0.cs.ucl.ac.uk/staff/d.silver/web/Teaching.html).
 * [Demystifying Deep Reinforcement Learning](http://neuro.cs.ut.ee/demystifying-deep-reinforcement-learning/) - A good tutorial that focuses on Q-learning using deep neural networks.
 * [Reinforcement Learning: An Introduction](https://webdocs.cs.ualberta.ca/~sutton/book/the-book-2nd.html) - A comprehensive book detailing lots of different reinforcement learning algorithms and techniques.
+* [Deep Reinforcement Learning: Pong from Pixels](http://karpathy.github.io/2016/05/31/rl/) - A great, in-depth piece on the policy-based Policy Gradient reinforcement learning algorithm.
 
 ### Model interpretation
 
