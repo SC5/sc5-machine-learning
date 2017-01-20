@@ -1,15 +1,16 @@
-from keras.preprocessing.image import img_to_array, load_img
+from keras.preprocessing.image import array_to_img, img_to_array, load_img
 from keras.models import Sequential, load_model
 from keras.layers import Convolution2D, MaxPooling2D
 from keras.layers import Activation, Dropout, Flatten, Dense
 from keras.utils.np_utils import to_categorical
+from keras.optimizers import SGD
 
 import numpy as np
 import sys
 import os
 img_width, img_height = 240, 256
 
-np.random.seed(1337)
+np.random.seed(12345)
 
 # -- Data preparation --
 
@@ -48,24 +49,27 @@ if len(sys.argv) > 1:
 
 else:
   model = Sequential()
-  model.add(Convolution2D(32, 3, 3, input_shape=(3, img_width, img_height)))
+  model.add(Convolution2D(32, 5, 5, input_shape=(3, img_width, img_height)))
   model.add(Activation('relu'))
-  model.add(MaxPooling2D(pool_size=(2, 2)))
+  model.add(MaxPooling2D(pool_size=(3, 3)))
   model.add(Dropout(0.25))
 
   model.add(Convolution2D(32, 3, 3))
   model.add(Activation('relu'))
-  model.add(MaxPooling2D(pool_size=(2, 2)))
+  model.add(MaxPooling2D(pool_size=(3, 3)))
   model.add(Dropout(0.25))
 
   model.add(Flatten())
-  model.add(Dense(30))
+  model.add(Dense(40))
+  model.add(Activation('relu'))
+  model.add(Dense(20))
   model.add(Activation('relu'))
   model.add(Dense(len(dirs)))
   model.add(Activation('relu'))
 
+sgd = SGD(lr=0.001, clipnorm=1.)
 model.compile(loss='categorical_crossentropy',
-              optimizer='rmsprop',
+              optimizer=sgd,
               metrics=['accuracy'])
 
 model.summary()
@@ -78,13 +82,8 @@ for i in xrange(0,1000):
     nb_epoch=1
   )
   model.save('saved_model.h5')
-  (loss_train, acc_train) = model.evaluate(X_train, Y_train, batch_size=32)
-  print(type(loss_train))
-  print(acc_train)
   (loss_test, acc_test) = model.evaluate(X_test, Y_test, batch_size=32)
-  print("Loss & accuracy (train set): " + str(loss_train) + "/" + str(acc_train))
-  print("Loss & accuracy (train set): " + str(loss_test) + "/" + str(acc_test))
-  if acc_train >= 0.9 and acc_test >= 0.9:
-    print("Stopping criterion achieved, stopping...")
+  print((loss_test, acc_test))
+  if acc_test >= 0.9:
+    print("Stopping criterion achieved, saving...")
     model.save('saved_model_high_acc.h5')
-    sys.exit(1)
