@@ -7,6 +7,8 @@ This is a collection of demos, tutorials, and other resources (and pointers to s
 * Tutorials
   * [Machine Learning for Beginners](https://github.com/SC5/sc5-machine-learning/blob/master/tutorials/beginners-guide.md)
 * [Machine Learning Links](https://github.com/SC5/sc5-machine-learning/blob/master/links.md)
+* Tools
+ * [Vowpal Wabbit Docker](https://github.com/SC5/sc5-machine-learning/tree/master/tools/vw-docker)
 
 ## Contributing
 Pull requests are welcome.
