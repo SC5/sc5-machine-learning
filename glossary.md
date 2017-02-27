@@ -47,13 +47,16 @@ An expression that can be evaluated in a finite number of mathematical operation
 A widely used supervised learning algorithm for providing recommendations based on user ratings.
 
 #### Convolutional neural network
-Informally, a convolutional neural network is a neural network architecture wherein subsets of input neurons are mapped to single neurons in the first hidden layer. Neurons in a given subset share the same weights and biases. Intuitively, convolutional neural networks are particularly good for computer vision problems because they take into account the spacial structure of images by "grouping" nearby pixels together. This is in contrast to simple feed-forward neural networks where image pixels far away from each other are treated the same as pixels near each other (leaving the network to infer spacial structure from training data).
+Informally, a convolutional neural network is a neural network architecture wherein subsets of input neurons are mapped to single neurons in the first hidden layer. Neurons in a given subset share the same weights and biases. Intuitively, convolutional neural networks are particularly good for computer vision problems because they take into account the spacial structure of images by "grouping" nearby pixels together. This is in contrast to simple feed-forward neural networks, where image pixels far away from each other are treated the same as pixels near each other (leaving the network to infer spacial structure from training data).
 
 #### Cosine similarity
 A measure of similarity between two vectors (the cosine of the angle between them). It's a measure of the similarity of the orientation of two vectors, not their magnitude.
 
 #### Cost function
 A function that quantifies the amount by which predictions deviate from observed data/values. Also known as a loss function.
+
+#### Credit assignment problem
+In reinforcement learning, it may not be possible to know immediately if a certain action is good or bad. If we play chess, and we end up losing, only then can we say that one or more of our moves were bad. In other words, we have _delayed reward signal_. Knowing which choices contributed the most to the outcome is known as the credit assignment problem.
 
 #### Cross-entropy
 A loss function typically used in (multinomial) logistic regression / softmax.
