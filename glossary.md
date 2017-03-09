@@ -67,6 +67,9 @@ Using deep neural networks (networks with more than one hidden layer) in order t
 #### Dependent variable
 Dependent variables represent the outputs or outcomes under study. Also known as response variables.
 
+#### Eager learning algorithm
+A learning algorithm that, during initial training over the training set, approximates a function that generalises to new examples. This is in contrast to lazy learning algorithms, where the work to approximate a function is delayed until a new, unseen example is given.
+
 #### Ensemble learning
 A technique in which multiple machine learning algorithms are combined in order to solve a particular problem.
 
@@ -87,6 +90,9 @@ A popular clustering algorithm used for unsupervised learning tasks (see unsuper
 
 #### Kurtosis
 A measure of the "tailedness" of a probability distribution. Positive kurtosis -> sharp peak, negative kurtosis -> small "hump".
+
+#### Lazy learning algorithm
+See eager learning algorithm.
 
 #### Linear regression
 An approach for modelling the relationship between a dependent variable `y` and `n` independent variables.
