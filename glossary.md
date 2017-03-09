@@ -181,6 +181,9 @@ A field of machine learning wherein the training sets are unlabelled and the mai
 #### Vectorisation
 (In programming) using matrix operations instead of applying operations to individual elements in for/while loops, thereby making computation more efficient.
 
+#### Weak learning algorithm
+A classifier/predictor that is barely more accuracte than random choice.
+
 #### Word embedding
 The process in which words from a vocabulary are converted into low-dimensional (low relative to the vocabulary space) vectors of real numbers. Word embeddings can be learned using shallow neural networks.
 
