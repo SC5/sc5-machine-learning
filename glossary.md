@@ -82,6 +82,9 @@ A metric that gives a single numerical value to the combined precision and recal
 #### Gradient descent
 An simple algorithm for minimising cost functions. More optimized minimisation algorithms that don't require choosing a learning rate include BFGS and L-BFGS.
 
+#### Ground truth
+In the context of supervised learning, ground truth refers to the inherent accuracy of examples in your training (note: not test/validation) set.
+
 #### Independent variable
 Independent variables are variables expected to affect the value or one or more dependent variables. Independent variable are also known as predictor variables (predictors).
 
