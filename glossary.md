@@ -127,11 +127,20 @@ A probabilistic classification method/algorithm based on conditional probabiliti
 #### (Artificial) Neural Network
 A learning algorithm that aims to mimick the function of neurons in the human brain. Can be used for classification and regression problems.
 
+#### Offline learning
+Machine learning algorithms that are trained once and do not learn more as more data is generated (unless retrained on purpose). The opposite of online learning algorithms.
+
 #### One-hot vector
 A vector in which all entries are zero except for one with the value 1. Useful for encoding characters, for example. Say we have a vocabulary of four characters [a, b, c, d]. The sequence "c" could be encoded as a one-hot vector [0,0,1,0].
 
 #### One-of-K encoding
 See one-hot vector.
+
+#### Online learning
+Machine learning algorithms that process and learn on one training example at a time, as opposed to on the entire dataset (batch) or chunks of the dataset (mini-batch). Online learning algorithms are typically able to learn in close to real time.
+
+#### Out-of-core algorithm
+An algorithm that is designed to work on data that is too large to fit into RAM all at once.
 
 #### Overfitting
 When a learning example has trained itself "too well" on the training data, making it bad at generalising to new examples (predictions).
