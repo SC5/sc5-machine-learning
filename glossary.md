@@ -109,6 +109,9 @@ A state machine where a transition from A to B happens based on a probability. T
 #### Markov property
 The Markov property is fulfilled iff the process in question is memoryless (see Markov chain).
 
+#### Matrix factorization
+Decomposition of a matrix into two of more matrices, that when multiplied, approximate the original matrix. Can be solved using an optimization algorithm such as gradient descent. Matrix factorization has many uses, and is a popular choice for recommender systems.
+
 #### Matthews correlation
 A coefficient typically used in binary classification problems as a measure of quality.
 
