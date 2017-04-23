@@ -27,6 +27,7 @@ A link list of machine learning resources, curated by the ML team at SC5.
 * [Demystifying Deep Reinforcement Learning](http://neuro.cs.ut.ee/demystifying-deep-reinforcement-learning/) - A good tutorial that focuses on Q-learning using deep neural networks.
 * [Reinforcement Learning: An Introduction](https://webdocs.cs.ualberta.ca/~sutton/book/the-book-2nd.html) - A comprehensive book detailing lots of different reinforcement learning algorithms and techniques.
 * [Deep Reinforcement Learning: Pong from Pixels](http://karpathy.github.io/2016/05/31/rl/) - A great, in-depth piece on the policy-based Policy Gradient reinforcement learning algorithm.
+* [Deep Q Learning with Keras and Gym](https://keon.io/deep-q-learning/) - An overview of the Deep Q Network (DQN) algorithm for reinforcement learning. Includes full Keras code.
 
 ### Model interpretation
 
