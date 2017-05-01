@@ -11,6 +11,7 @@ A link list of machine learning resources, curated by the ML team at SC5.
 
 * [What Artificial Intelligence Can and Can’t Do Right Now](https://hbr.org/2016/11/what-artificial-intelligence-can-and-cant-do-right-now) - A down-to-earth explanation of what's currently possible (and not possible). Focuses mostly on supervised learning.
 * [Ten Myths About Machine Learning](https://medium.com/@pedromdd/ten-myths-about-machine-learning-d888b48334a3#.udop91xpg) - _Everyone_ should read this before blinding trusting everything reported by the media. By Pedro Domingos.
+* [Meet the People Who Train the Robots (to Do Their Own Jobs)](https://www.nytimes.com/2017/04/28/technology/meet-the-people-who-train-the-robots-to-do-their-own-jobs.html?_r=0) - Includes interviews with a travel agent, a robotics expert, the CEO of a legal services startup, a customer service representative, and a software engineer from Waymo.
 
 ### Deep Learning
 
