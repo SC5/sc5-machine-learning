@@ -118,6 +118,9 @@ A coefficient typically used in binary classification problems as a measure of q
 #### Multi-layer perceptron
 See feed-forward artificial neural networks.
 
+#### Non-parametric learning algorithm
+A _non-parametric_ learning algorithm is an algorithm that a) makes no assumptions regarding the form of the hypothesis function and b) can thus have a variable set of parameters for the function. Random forests and K-NN are examples of non-parametric algorithms.
+
 #### Naïve Bayes
 A collective term for supervised Bayesian learning algorithms that assume independence between features.
 
@@ -144,6 +147,9 @@ An algorithm that is designed to work on data that is too large to fit into RAM 
 
 #### Overfitting
 When a learning example has trained itself "too well" on the training data, making it bad at generalising to new examples (predictions).
+
+#### Parametric learning algorithm
+A _parametric_ learning algorithm is an algorithm that a) makes an assumption regarding the form of the hypothesis function and b) thus has a fixed set of parameters for the function. Examples of parametric algorithms include linear and logistic regression, and Naïve Bayes.
 
 #### Perceptron
 A feed-forward neural network consisting of two layers (input & output), with only one neuron in the output layer (thus making it a binary classifier). A very simple type of neural network, and one of the first neural networks ever devised.
@@ -182,7 +188,7 @@ A measure of the asymmetry of a given probability distribution.
 The phenomenon where a trend appears in groups of data but disappears/reverses/"cancels out" when the groups of data are aggregated.
 
 #### Softmax
-A generalisation of the logistic sigmoid function that "squashes" an vector of real values in to a vector where each value is in the (0,1) range. These values sum up to 1, making softmax good for converting class values into probabilities.
+A generalisation of the logistic sigmoid function that "squashes" an vector of real values in to a vector where each value is in the (0,1) range. These values sum up to 1, making softmax good for converting class values into mutually exclusive probabilities.
 
 #### Statistical inference
 Deducing properties of a population or underlying distribution by analysing data.
