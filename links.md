@@ -13,6 +13,10 @@ A link list of machine learning resources, curated by the ML team at SC5.
 * [Ten Myths About Machine Learning](https://medium.com/@pedromdd/ten-myths-about-machine-learning-d888b48334a3#.udop91xpg) - _Everyone_ should read this before blinding trusting everything reported by the media. By Pedro Domingos.
 * [Meet the People Who Train the Robots (to Do Their Own Jobs)](https://www.nytimes.com/2017/04/28/technology/meet-the-people-who-train-the-robots-to-do-their-own-jobs.html?_r=0) - Includes interviews with a travel agent, a robotics expert, the CEO of a legal services startup, a customer service representative, and a software engineer from Waymo.
 
+### Bayesian machine learning
+
+* [Bayesian machine learning](http://fastml.com/bayesian-machine-learning/) - A great high-level overview of what machine learning is from a Bayesian viewpoint. An extremely useful primer if you already have some knowledge of "traditional" machine learning methods like logistic regression.
+
 ### Deep Learning
 
 * [An Introduction to Deep Learning](http://blog.algorithmia.com/introduction-to-deep-learning-2016/) - A good, plain English overview of deep learning.
