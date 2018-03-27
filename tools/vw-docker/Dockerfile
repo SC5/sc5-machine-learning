@@ -20,14 +20,20 @@ RUN yum install -y \
   zlib-devel \
   which
 
-RUN yum group install -y "Development Tools"
+# need to install gcc-5+ for codecvt
+RUN yum install -y centos-release-scl
+RUN yum install -y devtoolset-7
+
 RUN git clone https://github.com/JohnLangford/vowpal_wabbit.git
 RUN cd vowpal_wabbit/
 WORKDIR /vowpal_wabbit
-RUN sh autogen.sh
-RUN ./configure
-RUN make
-RUN make install
+
+# need to be using gcc-5+ before running make
+RUN source scl_source enable devtoolset-7 &&\
+    sh autogen.sh &&\
+    ./configure &&\
+    make &&\
+    make install
 
 WORKDIR /
 
